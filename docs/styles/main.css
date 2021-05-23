@@ -1,13 +1,20 @@
 html{
     background-color: #252422;
-    font-family: sans-serif;   
+    font-family: sans-serif; 
+    position: relative;
 }
 
 h1{
     font-size: 4em;
     color: #f1f7ee;
-    text-align: center;
-    position: absolute;
-    left: 30%;
-    top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    font-size: small;
+    color:#f1f7ee;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
