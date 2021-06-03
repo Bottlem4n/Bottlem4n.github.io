@@ -1,20 +1,31 @@
 html{
+    font-family: sans-serif;
+}
+
+body{
     background-color: #252422;
-    font-family: sans-serif; 
-    position: relative;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 95vw;
 }
 
 h1{
     font-size: 4em;
     color: #f1f7ee;
-    display: flex;
-    justify-content: center;
 }
 
 footer{
-    font-size: small;
-    color:#f1f7ee;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
+    height: 5vh;
+    width: 95vw;
+    font-size: small;
+    background-color: #f1f7ee;
+    color:#252422;
 }
