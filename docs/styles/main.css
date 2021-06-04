@@ -9,27 +9,28 @@ html{
     font-size: 62.5%;
 }
 
+
 body{
-    /* background-color: gainsboro; */
-    background-image: url(https://images.unsplash.com/photo-1550354520-86a81c515d44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+        background-image: url(https://images.unsplash.com/photo-1550354520-86a81c515d44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+        object-fit: cover;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
 
 div{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 95vh;
-    width: 100vw;
+    width: 100%;
 }
 
 h1{
-    font-size: 8rem;
-    padding: 1rem 2.5rem;
+    font-size: 2.5rem;
+    padding: .5rem 1rem;
     color: #f1f7ee;
     background-color: rgb(102, 51, 153,60%);
-    border-radius: 2rem;
+    border-radius: 1rem;
 
 }
 
@@ -38,8 +39,157 @@ footer{
     justify-content: center;
     align-items: center;
     height: 5vh;
-    width: 100vw;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
     background-color: #252422;
     color:#f1f7ee;
+}
+
+
+@media(min-width: 768px){
+    body{
+            background-image: url(https://images.unsplash.com/photo-1550354520-86a81c515d44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+            object-fit: cover;
+            background-repeat: no-repeat;
+        }
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 5rem;
+        padding: 1rem 2.5rem;
+        color: #f1f7ee;
+        background-color: rgb(102, 51, 153,60%);
+        border-radius: 2rem;
+
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        width: 100%;
+        font-size: 2rem;
+        background-color: #252422;
+        color:#f1f7ee;
+    }
+}
+
+
+@media (min-width: 1024px){
+
+    body{
+        background-image: url(https://images.unsplash.com/photo-1550354520-86a81c515d44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 8rem;
+        padding: 1rem 2.5rem;
+        color: #f1f7ee;
+        background-color: rgb(102, 51, 153,60%);
+        border-radius: 2rem;
+
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        width: 100%;
+        font-size: 2rem;
+        background-color: #252422;
+        color:#f1f7ee;
+    }
+}
+
+@media (min-width: 1440px){
+
+    body{
+        background-image: url(https://images.unsplash.com/photo-1550354520-86a81c515d44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 10rem;
+        padding: 1.5rem 3rem;
+        color: #f1f7ee;
+        background-color: rgb(102, 51, 153,60%);
+        border-radius: 3rem;
+
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        width: 100%;
+        font-size: 3rem;
+        background-color: #252422;
+        color:#f1f7ee;
+    }
+}
+
+@media (min-width: 2560px){
+
+    body{
+        background-image: url(https://images.unsplash.com/photo-1550354520-86a81c515d44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 20rem;
+        padding: 2rem 3.5rem;
+        color: #f1f7ee;
+        background-color: rgb(102, 51, 153,60%);
+        border-radius: 5rem;
+
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        width: 100%;
+        font-size: 6rem;
+        background-color: #252422;
+        color:#f1f7ee;
+    }
 }
